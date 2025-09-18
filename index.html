@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="images/fb-share.png">
+    <meta name="description" property="og:description"
+    content="Você conhece as diferentes definições de planejamento da inovação?">
+    <meta name="keywords" content="administração de recursos humanos, gestão de pessoas, setor público">
+    <meta name="author" content="Univesp">
+
+    <title>Univesp | Administração de Recursos Humanos</title>
+
+  <link rel="shortcut icon" href="http://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <link rel="stylesheet" href="https://apps.univesp.br/common/animate.css"> -->
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.0.css">
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+
+</head>
+
+<body class="d-flex flex-column" style="background-color: #155b92;">
+
+  <!-- Utilizar essa DIV caso o REA não se adapte a todos os tamanhos de tela -->
+  <!-- <div class="esconder-tela-pequena"> -->
+
+  <!-- Menu -->
+<nav>
+    <div class="container d-flex justify-content-end">
+
+      <div class="logo">
+
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/colorida-positiva.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp em letras maiúsculas, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+
+      </div>
+
+      <ul class="nav justify-content-end">
+
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Menu de acessibilidade">accessibility_new</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            ...
+          </div>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing" id="share-buttons"></div>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+<main id="conteudoPrincipal">
+  <!-- Conteúdo -->
+  <div class="container overlay" style="background-color: #155b92;">
+    <div class="instrucao">
+      <h1>Administração de Recursos Humanos</h1>
+        <p>Você conhece as etapas da administração de recursos humanos?</p>
+        <p>Saber administrar os recursos humanos é muito importante no setor público, pois eles são um ativo muito valioso.</p>
+        <p>Teste seus conhecimentos e associe cada etapa à fase correta.</p>
+        <p style="font-size: 16px; padding-top: 25px;"><strong>Instruções:</strong> Arraste as cartas cinzas até a posição correta na tabela, caso contrário elas voltarão para a posição inicial.</p>
+    </div>
+
+        <div class="feedback"><p class="reiniciar" style="display: none;" onclick="window.location.reload();"><strong>REINICIAR</strong></p></div>
+        <div class="feedback"><p class="reiniciar" style="display: none; color: #607789;"><a href="images/quadro.pdf" target="_blank"><strong>IMPRIMIR</strong></a></p></div>
+</div>
+<div class="container" id="campo-weather" align="center">
+    <table id="tab1">
+      <tr>
+        <td><div id="campo1" class="ui-widget-header31">
+            <p><strong>Etapa</strong></p>
+                </div></td>
+        <td><div id="campo2" class="ui-widget-header32">
+            <p>Provisão de Pessoas</p>
+                </div></td>
+        <td><div id="campo3" class="ui-widget-header33">
+            <p>Aplicação de pessoas</p>
+                </div></td>
+        <td><div id="campo4" class="ui-widget-header34">
+            <p>Manutenção de Pessoas</p>
+                </div></td>
+        <td><div id="campo5" class="ui-widget-header35">
+            <p>Desenvolvimento de Pessoas</p>
+                </div></td>
+        <td><div id="campo6" class="ui-widget-header36">
+            <p>Monitoramento de Pessoas</p>
+                </div></td>
+      </tr>
+      <tr>
+        <td><div id="campo7" class="ui-widget-headerone"><strong>1ª</strong>
+                </div></td>
+        <td><div id="campo8" class="ui-widget-headertwo1">
+                </div></td>
+        <td><div id="campo9" class="ui-widget-headerthree1">
+                </div></td>
+        <td><div id="campo10" class="ui-widget-headerfour1">
+                </div></td>
+        <td><div id="campo11" class="ui-widget-headerfive1">
+                </div></td>
+        <td><div id="campo12" class="ui-widget-headersix1">
+                </div></td>
+      </tr>
+      <tr>
+        <td><div id="campo13" class="ui-widget-headerone"><strong>2ª</strong>
+                </div></td>
+        <td><div id="campo14" class="ui-widget-headertwo2">
+                </div></td>
+        <td><div id="campo15" class="ui-widget-headerthree2">
+                </div></td>
+        <td><div id="campo16" class="ui-widget-headerfour2">
+                </div></td>
+        <td><div id="campo17" class="ui-widget-headerfive2">
+                </div></td>
+        <td><div id="campo18" class="ui-widget-headersix2">
+                </div></td>
+      </tr>
+      <tr class="footer2">
+        <td><div id="campo19" class="ui-widget-headerone"><strong>3ª</strong>
+                </div></td>
+        <td><div id="campo20" class="ui-widget-headertwo3">
+                </div></td>
+        <td><div id="campo21" class="ui-widget-headerthree3">
+                </div></td>
+        <td><div id="campo22" class="ui-widget-headerfour3">
+                <p></p></div></td>
+        <td><div id="campo23" class="ui-widget-headerfive3">
+                </div></td>
+        <td><div id="campo24" class="ui-widget-headersix3">
+                </div></td>
+      </tr>
+    </table>
+</div>
+  <div class="container" style="padding-bottom: 1%; width: 100%;">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-4">
+        <div id="campo" class="ui-widget-header5">
+          <div id="resposta1" class="ui-widget-content"><p>Controles</p></div>
+          <div id="resposta2" class="ui-widget-content"><p>Desenho de cargos</p></div>
+          <div id="resposta3" class="ui-widget-content"><p>Banco de dados</p></div>
+          <div id="resposta4" class="ui-widget-content"><p>Avaliação do desempenho</p></div>
+          <div id="resposta5" class="ui-widget-content"><p>Sistemas de informações</p></div>
+          <div id="resposta6" class="ui-widget-content"><p>Estudo continuado</p></div>
+          <div id="resposta7" class="ui-widget-content"><p>Treinamento</p></div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div id="campo" class="ui-widget-header5">
+          <div id="resposta8" class="ui-widget-content"><p>Recrutamento</p></div>
+          <div id="resposta9" class="ui-widget-content"><p>Seleção</p></div>
+          <div id="resposta10" class="ui-widget-content"><p>Remuneração e benefícios</p></div>
+          <div id="resposta11" class="ui-widget-content"><p>Desenvolvimento</p></div>
+          <div id="resposta12" class="ui-widget-content"><p>Segurança</p></div>
+          <div id="resposta13" class="ui-widget-content"><p>Análise e descrição</p></div>
+          <div id="resposta14" class="ui-widget-content"><p>Relações sindicais</p></div>
+          <div id="resposta15" class="ui-widget-content"><p>Planejamento RH</p></div>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <!-- Rodapé -->
+<footer style="background-color: #00bcd4">
+    <div class="container flex justify-content-between align-items-center d-print-none" style="display: flex;">
+
+      <div class="cred-rea">
+
+        <!-- Comente em caso de adaptação do REA -->
+        <p>
+          <span>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="http://apps.univesp.br/common/license_MIT_2019.txt" target="_blank">MIT</a>.
+          Você pode utilizá-lo, compartilhá-lo e modificá-lo.</span>
+          <span><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></span>
+
+        <p>
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+          <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+          <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <div class="aval-rea flex">
+        <a class="btn btn-secondary" href="https://forms.office.com/r/Yy7zYnw3CB" target="_blank">Avaliar este recurso</a>
+        <a class="btn btn-secondary" href="https://forms.office.com/r/BU3heRJ9ZP" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+  <!-- Créditos -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Rodolfo Jardim de Azevedo</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Simone Telles Martins Ramos</p>
+
+          <h6>Equipe</h6>
+          <p><span class="funcao">Layout</span>Celso de Oliveira</p>
+          <p><span class="funcao">Programação</span>Celso de Oliveira</p>
+          <p><span class="funcao">Planejamento e Design Instrucional</span>Simone Alves de Carvalho</p>
+          <p><span class="funcao">Docente responsável</span>Leila Pires</p>
+
+        </div>
+        <div class="modal-footer">
+          <p>Fevereiro/2019</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+   <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+  var share = $("#share-buttons");
+  var page_title = $(document).attr('title');
+  var page_url = window.location.href;
+  share.jsSocials({
+    shares: [
+      {
+        share: "facebook",
+        label: "Facebook",
+        logo: "fab fa-facebook-f",
+      },
+      {
+        share: "twitter",
+        label: "Twitter",
+        logo: "fab fa-twitter",
+      },
+      {
+        share: "whatsapp",
+        label: "Whatsapp",
+        logo: "fab fa-whatsapp",
+      },
+    ],
+    url: page_url,
+    text: 'Confira o REA ' + page_title + '.',
+    showLabel: true,
+    showCount: false,
+    shareIn: "popup",
+  });
+  </script>
+
+
+  <!-- Custom JS -->
+  <script src="js/events.js"></script>
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+
+</body>
+
+</html>
